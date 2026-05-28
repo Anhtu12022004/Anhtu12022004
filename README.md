@@ -21,16 +21,18 @@ I enjoy building AI systems end-to-end. My goal is to become a **Machine Learnin
 
 ## 🚀 Featured Projects
 
-### 🤚 [Fingerprint Recognition System](https://github.com/Anhtu12022004/Fingerprint-Recognition-System)
+### 📰 [News Aggregator Multi-Agent System](https://github.com/Anhtu12022004/News-Aggregator-Agent)
 
-> A biometric fingerprint verification system built on a **Siamese Neural Network**.
+> An automated news aggregator powered by a collaborative **Multi-Agent architecture** and **OpenAI GPT-4o-mini**, featuring a real-time Glassmorphism Web UI.
 
 **Highlights:**
-- Designed and trained a **Siamese Network** on positive/negative image pairs for similarity learning
-- Focused on image preprocessing and manual feature extraction for robust biometric recognition
-- Built a complete pipeline: data preparation → model training → evaluation
+- Designed a **4-agent collaborative pipeline**: Fetcher Agent (RSS crawling) → Analyst Agent (quality scoring via Structured Outputs) → Summary Agent (concise 3–4 sentence summaries) → Compiler Agent (Markdown report generation)
+- Implemented **OpenAI Structured Outputs** in the Analyst Agent for rubric-based quality scoring (0–10), automatically filtering out low-quality articles
+- Built a **real-time Web UI** with Dark Mode Glassmorphism design and **NDJSON Generator Streaming** for live per-agent progress logs
+- Architected a **centralized `config.py`** for zero-code tuning of categories, score thresholds, model selection, and summary length
+- Integrated **timezone-aware date filtering** to process only same-day articles, minimizing token cost and ensuring news freshness
 
-**Tech stack:** `TensorFlow/Keras` `Python` `Jupyter Notebook`
+**Tech stack:** `Python` `OpenAI API (GPT-4o-mini)` `Flask` `BeautifulSoup` `JavaScript` `HTML/CSS`
 
 ---
 
@@ -63,6 +65,19 @@ I enjoy building AI systems end-to-end. My goal is to become a **Machine Learnin
 
 ---
 
+### 🤚 [Fingerprint Recognition System](https://github.com/Anhtu12022004/Fingerprint-Recognition-System)
+
+> A biometric fingerprint verification system built on a **Siamese Neural Network**.
+
+**Highlights:**
+- Designed and trained a **Siamese Network** on positive/negative image pairs for similarity learning
+- Focused on image preprocessing and manual feature extraction for robust biometric recognition
+- Built a complete pipeline: data preparation → model training → evaluation
+
+**Tech stack:** `TensorFlow/Keras` `Python` `Jupyter Notebook`
+
+---
+
 ### 🔬 [CUDA Autoencoder — CIFAR-10 Image Reconstruction](https://github.com/Anhtu12022004/Autoencoder-Project---CIFAR-10-Image-Reconstruction)
 
 > A complete Autoencoder built entirely from scratch in **C++/CUDA**, with no ML library dependencies.
@@ -76,6 +91,7 @@ I enjoy building AI systems end-to-end. My goal is to become a **Machine Learnin
 **Tech stack:** `C++` `CUDA` `Python` `Scikit-learn` `Jupyter Notebook`
 
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -101,6 +117,7 @@ I enjoy building AI systems end-to-end. My goal is to become a **Machine Learnin
 ![LLM Applications](https://img.shields.io/badge/LLM%20Applications-FF9900?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-20B2AA?style=for-the-badge)
 ![Embeddings & Vector Search](https://img.shields.io/badge/Embeddings%20%26%20Vector%20Search-6A0DAD?style=for-the-badge)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-E63946?style=for-the-badge)
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -109,6 +126,7 @@ I enjoy building AI systems end-to-end. My goal is to become a **Machine Learnin
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge)
 ![Conda](https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 </div>
 
